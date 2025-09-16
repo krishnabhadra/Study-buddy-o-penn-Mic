@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Study Buddy</title>
+
+  <!-- Google font (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- your stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Main container -->
+  <div class="container">
+    <!-- Header / title -->
+    <header class="header">
+      <h1>Study Buddy</h1>
+      <p class="subtitle">Your strict study companion — short answers, friendly push.</p>
+    </header>
+
+    <!-- Chat messages area -->
+    <main id="messages" class="messages" aria-live="polite">
+      <!-- messages will be appended here by script.js -->
+    </main>
+
+    <!-- Input area -->
+    <form id="input-form" class="input-area">
+      <textarea id="input" rows="1" placeholder="Ask me something about your study..."></textarea>
+      <button id="send-btn" type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- your JS -->
+  <script src="script.js"></script>
+</body>
+</html>
